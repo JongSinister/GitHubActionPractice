@@ -43,3 +43,121 @@ Before we get started, keep in mind:
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
 [error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-04-06T08:23:59.661Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T08:23:59.663Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2025-04-06T08:23:59.664Z] CLI Version:   13.35.1
+[debug] [2025-04-06T08:23:59.664Z] Platform:      win32
+[debug] [2025-04-06T08:23:59.664Z] Node Version:  v20.11.0
+[debug] [2025-04-06T08:23:59.664Z] Time:          Sun Apr 06 2025 15:23:59 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T08:23:59.664Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T08:23:59.847Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T08:23:59.848Z] > authorizing via signed-in user (mazuroze@gmail.com)
+[debug] [2025-04-06T08:23:59.849Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:23:59.849Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:23:59.851Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-04-06T08:24:00.703Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-06T08:24:00.703Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-04-06T08:24:05.433Z] TypeError: Cannot read properties of undefined (reading 'value')
+    at ListPrompt.getCurrentValue (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\inquirer\lib\prompts\list.js:145:53)
+    at C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\operators\map.js:10:37
+    at OperatorSubscriber._this._next (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:33:21)
+    at Subscriber.next (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\Subscriber.js:51:18)
+    at C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\operators\take.js:15:32
+    at OperatorSubscriber._this._next (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:33:21)
+    at Subscriber.next (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\Subscriber.js:51:18)
+    at Interface.handler (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\rxjs\dist\cjs\internal\observable\fromEvent.js:59:31)
+    at Interface.emit (node:events:530:35)
+    at Interface.emit (node:domain:488:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-04-06T08:26:27.230Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T08:26:27.233Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2025-04-06T08:26:27.234Z] CLI Version:   13.35.1
+[debug] [2025-04-06T08:26:27.234Z] Platform:      win32
+[debug] [2025-04-06T08:26:27.234Z] Node Version:  v20.11.0
+[debug] [2025-04-06T08:26:27.234Z] Time:          Sun Apr 06 2025 15:26:27 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T08:26:27.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T08:26:27.418Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T08:26:27.419Z] > authorizing via signed-in user (mazuroze@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\Desktop\225-github-actions-demo
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T08:26:30.246Z] Using project from CLI flag: fireship-lessons
+[debug] [2025-04-06T08:26:30.247Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:26:30.247Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:26:30.249Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T08:26:30.953Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T08:26:30.954Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T08:26:30.954Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T08:26:31.088Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-04-06T08:27:06.017Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T08:27:06.020Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2025-04-06T08:27:06.020Z] CLI Version:   13.35.1
+[debug] [2025-04-06T08:27:06.020Z] Platform:      win32
+[debug] [2025-04-06T08:27:06.020Z] Node Version:  v20.11.0
+[debug] [2025-04-06T08:27:06.021Z] Time:          Sun Apr 06 2025 15:27:06 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T08:27:06.021Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T08:27:06.201Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T08:27:06.201Z] > authorizing via signed-in user (mazuroze@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\Desktop\225-github-actions-demo
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T08:27:07.768Z] Using project from CLI flag: fireship-lessons
+[debug] [2025-04-06T08:27:07.769Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:27:07.769Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:27:07.770Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T08:27:08.260Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T08:27:08.260Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T08:27:08.262Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T08:27:08.441Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
