@@ -1,13 +1,13 @@
-[debug] [2025-04-06T07:56:26.260Z] ----------------------------------------------------------------------
-[debug] [2025-04-06T07:56:26.263Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
-[debug] [2025-04-06T07:56:26.264Z] CLI Version:   13.35.1
-[debug] [2025-04-06T07:56:26.264Z] Platform:      win32
-[debug] [2025-04-06T07:56:26.264Z] Node Version:  v20.11.0
-[debug] [2025-04-06T07:56:26.264Z] Time:          Sun Apr 06 2025 14:56:26 GMT+0700 (Indochina Time)
-[debug] [2025-04-06T07:56:26.264Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T08:07:11.629Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T08:07:11.632Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2025-04-06T08:07:11.632Z] CLI Version:   13.35.1
+[debug] [2025-04-06T08:07:11.632Z] Platform:      win32
+[debug] [2025-04-06T08:07:11.632Z] Node Version:  v20.11.0
+[debug] [2025-04-06T08:07:11.632Z] Time:          Sun Apr 06 2025 15:07:11 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T08:07:11.632Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-04-06T07:56:26.464Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-04-06T07:56:26.465Z] > authorizing via signed-in user (mazuroze@gmail.com)
+[debug] [2025-04-06T08:07:11.811Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T08:07:11.811Z] > authorizing via signed-in user (mazuroze@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -30,14 +30,14 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2025-04-06T07:56:32.757Z] Using project from CLI flag: fireship-lessons
-[debug] [2025-04-06T07:56:32.758Z] Checked if tokens are valid: true, expires at: 1743928794708
-[debug] [2025-04-06T07:56:32.758Z] Checked if tokens are valid: true, expires at: 1743928794708
-[debug] [2025-04-06T07:56:32.760Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
-[debug] [2025-04-06T07:56:33.432Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
-[debug] [2025-04-06T07:56:33.433Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2025-04-06T07:56:33.433Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
-[debug] [2025-04-06T07:56:33.569Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T08:07:13.626Z] Using project from CLI flag: fireship-lessons
+[debug] [2025-04-06T08:07:13.627Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:07:13.627Z] Checked if tokens are valid: true, expires at: 1743929910066
+[debug] [2025-04-06T08:07:13.628Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T08:07:14.046Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T08:07:14.046Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T08:07:14.046Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T08:07:14.165Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\responseToError.js:52:12)
     at RetryOperation._fn (C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\apiv2.js:312:77)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
